@@ -1,0 +1,97 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding:16px;
+    box-shadow: 0 1px 3px -2px #e7e7e7;
+    background-color: black;
+}
+
+.nav-logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+}
+
+.nav-logo img{
+    height:70px;
+    width:70px;
+    border-radius: 50%;
+}
+
+.nav-logo p{
+    color: #e7e7e7;
+    font-weight: 100;
+    font-size: 30px;
+    /* font-family: 'Cormorant Garamond', serif; */
+}
+
+.nav-menu{
+    display:flex;
+    align-items:center;
+    list-style:none;
+    gap:50px;
+    font-size: 20px;
+    font-weight:500;
+    color: #e7e7e7;
+}
+
+.nav-menu li{
+    /* display:flex; */
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    gap: 3px;
+    cursor:pointer;
+    font-size: 15px;
+}
+
+.nav-manu hr{
+    border:none;
+    width:30%;
+    height:3px;
+    border-radius: 10px;
+    background:#e7e7e7 ;
+}
+
+.nav-login-cart{
+    display:flex;
+    align-items:center;
+    gap:35px;
+}
+.nav-login-cart img {
+    height: 29px;
+}
+
+.nav-login-cart button{
+    width:70px;
+    height: 35px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color:black;
+    font-size: 14px;
+    font-weight:600;
+    background: white;
+    cursor: pointer;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.nav-login-cart button:active{
+    background:#c4c1c1;
+}
+
+.nav-cart-count{
+    width:14px;
+    height:14px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:-14px;
+    margin-left: -44px;
+    border-radius:11px;
+    font-size: 12px;
+    background:#FFE691;
+    color:rgb(0, 0, 0);
+    font-weight: 900;
+}
